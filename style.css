@@ -7,10 +7,10 @@ body {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    background-color: #F8FAFC;
 }
 
 .container {
-    gap: 50px;
     margin: 40px auto;
     padding: 0 20px;
     text-align: center;
@@ -37,11 +37,13 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    margin: 25px 0px 0px 20px;
 }
 
 .image {
     width: 13vw;
     border-radius: 14px;
+    margin-top: 45px;
 }
 
 .small-heading {
